@@ -13,8 +13,6 @@ services:
         value: production
       - key: DATABASE_PATH
         value: /var/data/alibi.sqlite
-      - key: OPENAI_API_KEY
-        sync: false
       - key: OPENAI_MODEL
         value: gpt-4o-mini
       - key: OPENAI_IMAGE_MODEL
