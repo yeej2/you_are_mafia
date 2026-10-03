@@ -1,0 +1,27 @@
+services:
+  - type: web
+    name: midnight-alibi
+    runtime: node
+    plan: starter
+    buildCommand: corepack enable && pnpm install --frozen-lockfile && pnpm render:build
+    startCommand: node scripts/render-server.mjs
+    healthCheckPath: /healthz
+    envVars:
+      - key: NODE_VERSION
+        value: 24.21.0
+      - key: NODE_ENV
+        value: production
+      - key: DATABASE_PATH
+        value: /var/data/alibi.sqlite
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: OPENAI_MODEL
+        value: gpt-4o-mini
+      - key: OPENAI_IMAGE_MODEL
+        value: gpt-image-2
+      - key: OPENAI_VOICE_MODEL
+        value: gpt-4o-mini-tts
+    disk:
+      name: game-data
+      mountPath: /var/data
+      sizeGB: 1

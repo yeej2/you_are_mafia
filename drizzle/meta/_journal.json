@@ -1,0 +1,41 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1790054800906,
+      "tag": "0000_lively_phalanx",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1790055485046,
+      "tag": "0001_normal_shinko_yamashiro",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1790055527613,
+      "tag": "0002_loving_miracleman",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1791014294728,
+      "tag": "0003_slim_kulan_gath",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "6",
+      "when": 1791014441595,
+      "tag": "0004_mean_wendell_vaughn",
+      "breakpoints": true
+    }
+  ]
+}

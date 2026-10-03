@@ -1,0 +1,1 @@
+{"name":"Midnight Alibi","short_name":"Alibi","description":"A multiplayer game of beautiful lies.","start_url":"/","display":"standalone","background_color":"#111213","theme_color":"#111213","icons":[{"src":"/icon-192.png","sizes":"192x192","type":"image/png"},{"src":"/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}]}

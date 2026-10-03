@@ -1,0 +1,1 @@
+CREATE INDEX `presence_room_idx` ON `presence` (`room`);

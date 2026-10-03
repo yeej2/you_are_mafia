@@ -1,0 +1,1 @@
+ALTER TABLE `simulation_media` ADD `attempts` integer DEFAULT 1 NOT NULL;
